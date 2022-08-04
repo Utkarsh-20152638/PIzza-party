@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="2dp"
+    >
+    <LinearLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="#C3DCD8"
+
+
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv1"
+
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/Circular"
+        app:strokeColor="#3479CD"
+        app:strokeWidth="3dp" />
+
+    <TextView
+        android:id="@+id/l_tv1"
+
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/iv1"
+        android:hint="pizza name"
+        android:textColor="@color/black"
+
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/l_tv1"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/iv1">
+
+        <Button
+            android:id="@+id/l_bttn1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#34CDB6"
+            android:text="-"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/l_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="0"
+
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/l_bttn2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#34CDB6"
+            android:text="+"
+
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/l_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="end"
+            android:layout_marginLeft="20dp"
+
+            android:gravity="center_vertical"
+            android:text="₹"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/L_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:hint="price"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/l_bttn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:backgroundTint="@color/black"
+        android:background="@color/black"
+        android:layout_below="@id/ll1"
+        />
+</RelativeLayout>

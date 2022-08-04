@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/d_iv1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/Circular"
+        app:strokeWidth="3dp"
+        app:strokeColor="#FFEA00"/>
+    <TextView
+        android:id="@+id/d_tv1"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_toRightOf="@id/d_iv1"
+        android:hint="pizza name"
+        android:textColor="@color/black"
+
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_below="@id/d_tv1"
+        android:layout_toRightOf="@id/d_iv1"
+        android:layout_width="match_parent"
+        android:id="@+id/ll"
+        android:layout_height="50dp">
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:numeric="integer"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/black"
+
+            android:id="@+id/d_tv2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:id="@+id/d_tv3"
+            android:layout_marginLeft="20dp"
+
+            android:text="₹"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+
+             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:id="@+id/d_tv4"
+            android:hint="price"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#FFEB3B"
+            android:textColor="@color/black"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/d_edit"
+            android:text="Update"/>
+        <Button
+            android:layout_marginLeft="20dp"
+            android:id="@+id/d_cb1"
+            android:background="@drawable/ic_baseline_delete_24"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/d_tv4"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:backgroundTint="@color/black"
+        android:background="@color/black"
+        android:layout_below="@id/ll"
+         />
+</RelativeLayout>

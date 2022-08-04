@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainactivity"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:id="@+id/m_tv1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="20dp"
+       android:text="Choose language"
+       android:textColor="@color/black"
+       android:textStyle="bold"
+       android:textSize="30sp"
+        />
+   <LinearLayout
+       android:layout_below="@id/m_tv1"
+       android:id="@+id/ll"
+       android:layout_marginTop="20dp"
+       android:layout_marginRight="50dp"
+       android:layout_marginLeft="50dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+    >
+   <CheckBox
+       android:id="@+id/cb1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:layout_marginLeft="30dp"
+      android:text="English"
+       android:layout_marginRight="10dp"
+       android:textStyle="bold"
+       android:textColor="@color/black"
+      android:textSize="20sp"
+      />
+  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:text="Hindi"
+      android:id="@+id/hindi"
+      android:layout_marginLeft="10dp"
+      android:textColor="@color/black"
+      android:textStyle="bold"
+     android:textSize="20sp"/>
+   </LinearLayout>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="Your Address"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addressedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:hint="Address" />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:layout_below="@id/addressedit"
+      android:id="@+id/phone"
+       android:text="Contact Number"
+       android:textColor="@color/black"
+       android:textStyle="bold"
+       android:textSize="20sp"
+      android:layout_marginTop="15dp"
+      android:layout_marginBottom="15dp"/>
+   <EditText
+       android:id="@+id/phone_number"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/phone"
+
+       android:hint=" number"
+       android:phoneNumber="true" />
+    <EditText
+        android:id="@+id/shopId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_number"
+        android:layout_marginTop="40dp"
+        android:hint="Shop ID (optional)"
+         />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/signInButton"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="20dp"
+    android:text="Sign in"
+    android:textColor="@color/white"
+    android:backgroundTint="#337163"
+    />
+    <Button
+        android:id="@+id/b_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:backgroundTint="#0E0E0E"
+        android:text="Continue" />
+</RelativeLayout>

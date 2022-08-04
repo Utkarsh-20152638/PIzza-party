@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/activity_dev_desk.xml" value="0.1796875" />
+        <entry key="..\:/Users/UTKARSH/Desktop/Pizza_Party/app/src/main/res/layout/activity_contact_us.xml" value="0.25" />
+        <entry key="..\:/Users/UTKARSH/Desktop/Pizza_Party/app/src/main/res/layout/activity_detail_view.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/UTKARSH/Desktop/Pizza_Party/app/src/main/res/layout/activity_dev_desk.xml" value="0.25" />
+        <entry key="..\:/Users/UTKARSH/Desktop/Pizza_Party/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/UTKARSH/Desktop/Pizza_Party/app/src/main/res/layout/activity_payment.xml" value="0.25" />
+        <entry key="..\:/Users/UTKARSH/Desktop/Pizza_Party/app/src/main/res/layout/activity_second__page.xml" value="0.25" />
+        <entry key="..\:/Users/UTKARSH/Desktop/Pizza_Party/app/src/main/res/layout/activity_show_placed_order.xml" value="0.264" />
+        <entry key="..\:/Users/UTKARSH/Desktop/Pizza_Party/app/src/main/res/layout/activity_third__page.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/UTKARSH/Desktop/Pizza_Party/app/src/main/res/layout/detail_listview.xml" value="0.25" />
+        <entry key="..\:/Users/UTKARSH/Desktop/Pizza_Party/app/src/main/res/layout/fragment_non_veg.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/UTKARSH/Desktop/Pizza_Party/app/src/main/res/layout/fragment_sides.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/UTKARSH/Desktop/Pizza_Party/app/src/main/res/layout/ss_placedorders.xml" value="0.25" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/drawable/bg_seond.xml" value="0.1" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/drawable/button.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/drawable/custom_styles.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/drawable/ic_baseline_add_shopping_cart_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/drawable/ic_baseline_arrow_right_alt_24.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/drawable/ic_baseline_payment2_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/drawable/ic_baseline_payment_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/drawable/ic_cart.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/drawable/ic_check.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/drawable/ic_emoji_very_satisfied_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/drawable/ic_emotions_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/drawable/payment.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/activity_contact_us.xml" value="0.1796875" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/activity_detail_view.xml" value="0.22" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/activity_dev_desk.xml" value="0.22" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/activity_list_items.xml" value="0.22" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/activity_my_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/activity_order_placed.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/activity_payment.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/activity_second__page.xml" value="0.22" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/activity_show_placed_order.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/activity_third__page.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/bg_secondpage.xml" value="0.15172101449275363" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/detail_listview.xml" value="0.22" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/fragment_non_veg.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/fragment_sides.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/fragment_veg.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/list_items.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/list_view.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/placedorders.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/layout/ss_placedorders.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/menu/mwnu.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Pizza_Party/app/src/main/res/menu/ordersmenu.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

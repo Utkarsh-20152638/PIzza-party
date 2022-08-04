@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="my_theme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary" type="color">#34CDB6</item>
+    </style>
+</resources>

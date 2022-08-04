@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dev_Desk"
+    android:background="@drawable/mainactivity"
+    >
+    <TextView
+        android:id="@+id/CU_textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="Issue regarding your orders or services"
+        android:textSize="25sp"
+        android:background="#D2F12B3C"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/CU_textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="Contact us at "
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@id/CU_textView1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/CU_button1"
+        android:backgroundTint="#61EA63"
+        android:textColor="@color/black"
+
+        android:text="     6200291499"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/CU_textView2"/>
+    <TextView
+        android:id="@+id/CU_textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="Got any trouble in app"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:background="#D2F12B3C"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/CU_button1"/>
+    <TextView
+        android:id="@+id/CU_textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="Contact us at "
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@id/CU_textView3"/>
+    <TextView
+        android:id="@+id/CU_textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="make_your_app@usbc.be"
+        tools:ignore="MissingConstraints"
+        android:background="#61EA63"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/CU_textView5"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

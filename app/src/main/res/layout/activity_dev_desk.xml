@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainactivity"
+    tools:context=".dev_Desk">
+    <TextView
+        android:id="@+id/DD_textView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingConstraints"
+        android:text="Want your own app ?"
+        android:textSize="30sp"
+        android:background="#66F30E"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/DD_textView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:text="To build your app Contact us at "
+    tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@id/DD_textView1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/DD_button1"
+        android:backgroundTint="#EA6161"
+        android:textColor="@color/black"
+        android:text="make_your_app@usbc.be"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/DD_textView2"/>
+    <TextView
+        android:id="@+id/DD_textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="Nowadays it is so much important to grow with the present scenerio,digitalisation is the first step towards it."
+        tools:ignore="MissingConstraints"
+        android:gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/DD_button1"/>
+    <TextView
+        android:id="@+id/DD_textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="If you have any organisations, shops ,others you can have your own app which will help you grow in the digital race."
+        tools:ignore="MissingConstraints"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/DD_textView3"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

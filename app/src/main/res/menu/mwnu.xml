@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/moreOption"
+        android:title="Order History"
+        />
+    <item android:id="@+id/contactUS"
+        android:title="Contact Us"/>
+
+    <item android:id="@+id/profile"
+        android:title="My Profile" />
+
+    <item
+        android:title="Developer's Desk"
+        android:id="@+id/devDesk"/>
+    <item
+        android:id="@+id/f_order"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/signOut"
+
+        android:title="SignOut"
+        tools:ignore="MenuTitle" />
+
+</menu>

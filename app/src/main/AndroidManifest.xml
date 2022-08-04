@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.pizza_party">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pizza_Party">
+
+        <activity
+            android:name=".SSshowPlacedOrder"
+            android:exported="true"></activity>
+        <activity
+            android:name=".MyProfile"
+            android:exported="true" />
+        <activity
+            android:name=".dev_Desk"
+            android:exported="true" />
+        <activity
+            android:name=".contactUs"
+            android:exported="true" />
+        <activity
+            android:name=".OrderPlaced"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".Payment_Activity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".DetailView"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".orderHistory" />
+        <activity
+            android:name=".second_Page"
+            android:exported="true"
+            android:theme="@style/my_theme"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
